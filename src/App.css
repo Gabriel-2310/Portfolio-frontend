@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Standors-Bold';
+    src: url('./Tool/Fonts/StardosStencil-Bold.ttf') format('truetype');
+    font-style: oblique, italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Standors-Regular';
+    src: url('./Tool/Fonts/StardosStencil-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Basteleur-Bold';
+    src: url('./Tool/Fonts/Basteleur-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Basteleur-Moonlight';
+    src: url('./Tool/Fonts/Basteleur-Moonlight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.ContainerMain {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#00D14D;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ContainerMaster{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B5C47;
+    border-radius: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
