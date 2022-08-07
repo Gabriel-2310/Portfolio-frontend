@@ -58,11 +58,12 @@
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #3B5C47;
     border-radius: 2%;
     border-bottom: 1px solid #000;    
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    overflow: scroll;
 }
 

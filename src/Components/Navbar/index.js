@@ -21,9 +21,9 @@ const Navbar = () => {
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/about">About</a></li>
                 </ul>
-                <btn onClick={Show} className='btn-menu'>
+                <span  onClick={Show} className='btn-menu'>
                     <FontAwesomeIcon icon={faBars} /> 
-                </btn>                
+                </span >              
             </nav>            
         </header>
     )
