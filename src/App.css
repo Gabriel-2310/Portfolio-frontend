@@ -23,17 +23,34 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Batuphat-Script';
+    src: url('./Tool/Fonts/Batuphat-Script.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Batuphat-Script-Extrude';
+    src: url('./Tool/Fonts/Batuphat-Script-Extrude.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 
 .ContainerMain {
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#00D14D;
+    background-image: url(https://www.teahub.io/photos/full/35-352663_wallpaper-leaves-green-plant-aesthetic-nature-background-green.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .ContainerMaster{
@@ -45,5 +62,7 @@
     align-items: center;
     background-color: #3B5C47;
     border-radius: 2%;
+    border-bottom: 1px solid #000;    
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
