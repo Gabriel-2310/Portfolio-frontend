@@ -41,7 +41,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 93vh;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -64,6 +64,28 @@
     border-radius: 2%;
     border-bottom: 1px solid #000;    
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+}
+
+.Containermaster{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3B5C47;
+    border-radius: 2%;
+    border-bottom: 1px solid #000;    
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     overflow: scroll;
+}
+
+.Containermaster::-webkit-scrollbar {
+    width: 15px;
+    background-color: #3BB85E;
+}
+.Containermaster::-webkit-scrollbar-thumb {
+    background-color: #12381D;
+    border-radius: 5px;
 }
 

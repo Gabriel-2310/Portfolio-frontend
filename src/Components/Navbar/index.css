@@ -87,7 +87,8 @@ ul.show {
         top: -100vh;
         text-align: center;
         transition: all .4s;
-        flex-direction: column;
+        flex-direction: column;        
+		z-index: 10;
     }
     .menu-items li {
         margin: 30px 0 0 0;

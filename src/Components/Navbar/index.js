@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBars} from '@fortawesome/free-solid-svg-icons';
+import { FaBars } from 'react-icons/fa';
 import "./index.css";
 
 const Navbar = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
                     <li><a href="/about">About</a></li>
                 </ul>
                 <span  onClick={Show} className='btn-menu'>
-                    <FontAwesomeIcon icon={faBars} /> 
+                    < FaBars /> 
                 </span >              
             </nav>            
         </header>
