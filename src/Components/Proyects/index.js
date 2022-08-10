@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaRocket } from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
 import "./index.css";
 
 
@@ -92,6 +93,11 @@ const Proyects = () => {
                 </div>)
             }) 
           }
+        </div>
+        <div className="button">
+          <NavLink to={'/about'}>
+          <button>Conoce mas sobre mi</button>
+          </NavLink>          
         </div>
       </div>
     </div>

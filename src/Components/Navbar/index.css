@@ -36,9 +36,9 @@
     margin: 0 5px;
 }
 
-.menu-items li a {
+.menu-items li p {
     padding: 7px 13px;
-    text-decoration: none;
+    text-decoration-line: none;
     font-size: 18px;
     display: block;
     text-transform: uppercase;
@@ -67,7 +67,7 @@ ul.show {
         font-size: 30px;
         padding-left: 35px;
     }
-    .menu-items li a {
+    .menu-items li p {
         font-size: 16px;
     }
 }
@@ -97,12 +97,12 @@ ul.show {
     .menu-items li:hover {
         background: none;
     }
-    .menu-items li a {
+    .menu-items li p {
         font-size: 20px;
         color: #3BB85E;
         font-weight: bold;
     }
-    .menu-items li a:hover {
+    .menu-items li p:hover {
         color: #12381D;
     }
     .logo {

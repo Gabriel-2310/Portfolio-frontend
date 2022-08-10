@@ -1,0 +1,32 @@
+.texto {
+    width: 90%;
+}
+.texto p {
+    padding: 1%;
+    text-align: center;
+}
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.button button{
+    display: inline-block;
+    border: none;
+    height: 100%;
+    border-radius: 30px;
+    width: 200px;
+    background-color: #3BB85E;
+    font-size: 100%;
+    color: #000;
+    transition: 150ms;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.button:hover{
+    transform: translate(0, -5px);
+}
