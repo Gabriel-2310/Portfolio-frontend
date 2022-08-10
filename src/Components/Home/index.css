@@ -1,0 +1,61 @@
+.contenedorhome{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+#butonCV{
+    justify-content: flex-start;
+}
+.infohome{
+    width: 50%;
+    font-family: Basteleur-Moonlight;
+}
+
+.skillhome{
+    width: 50%;
+}
+
+#subtituloskill{
+    height: 2%;
+}
+
+.contenedorskill {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10%;
+    justify-content: center;
+}
+
+.cardskills {
+    width: 40px;
+    margin: 1%;
+}
+
+.cardskills img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+@media screen and (max-width: 858px) {
+    .contenedorhome{
+        flex-direction: column;
+    }
+    .infohome{
+        width: 100%;
+        font-size: 90%;
+    }
+    .skillhome{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .infohome{
+        width: 100%;
+        font-size: 70%;
+    }
+}

@@ -63,7 +63,7 @@ const Proyects = () => {
                           element.img && element.img.map((img) =>{
                             return (
                               <li>
-                                <img src={img} alt="paisaje" />
+                                <img src={img} alt="" />
                               </li>
                             )
                           })
