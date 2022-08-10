@@ -1,0 +1,51 @@
+.containerwelcom{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagenwelcom {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenwelcom img {
+    width: 70%;
+}
+
+.infowelcom {
+    width: 45%;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 100%;
+}
+.infowelcom h1, h2, h4{
+    font-family: Basteleur-Bold;
+}
+.infowelcom p {
+    font-family: Basteleur-Moonlight;
+}
+
+@media screen and (max-width: 858px) {
+    .imagenwelcom{
+        display: none;
+    }
+    .infowelcom{
+        width: 80%;
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .infowelcom{
+        width: 80%;
+        font-size: 70%;
+    }
+}

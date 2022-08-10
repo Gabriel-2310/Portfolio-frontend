@@ -6,11 +6,21 @@ const Welcome = () => {
   return (
     <div className='ContainerMain'>
       <div className='ContainerMaster'>
-        <h1>Welcome</h1>
+        <div className='containerwelcom'>
+          <div className='imagenwelcom'>
+            <img src="https://eldiario.com/wp-content/uploads/2020/08/nomada-digital-destinos-6-1.jpg" alt="paisaje" />
+          </div>
+          <div className='infowelcom'>
+            <h1>¡Bienvenidos!</h1>
+            <br />
+            <h4>"Para crear lo fantastico primero debes entender lo real"</h4>
+            <p>Walt Disney</p>
+          </div>
+        </div>
         <div className="button">
-          <NavLink to={'/proyects'}>
-          <button>Conoce mis proyectos</button>
-          </NavLink>          
+          <NavLink to={'/home'}>
+            <button>Iniciar</button>
+          </NavLink>
         </div>
       </div>
     </div>
