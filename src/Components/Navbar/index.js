@@ -17,16 +17,16 @@ const Navbar = () => {
                 <label className='logo'>LuisGabriel</label>
                 <ul className={show ? "show menu-items" : 'menu-items'}>
                     <li>
-                    <NavLink to={'/home'} style={{textDecoration:"none"}}><p className='active'>home </p></NavLink>
+                    <NavLink to={'/home'} style={{textDecoration:"none"}}><p className='active'>Inicio</p></NavLink>
                     </li>
                     <li>
-                    <NavLink to={'/proyects'} style={{textDecoration:"none"}}><p >Proyects</p></NavLink>
+                    <NavLink to={'/proyects'} style={{textDecoration:"none"}}><p >Proyectos</p></NavLink>
                     </li>
                     <li>
-                    <NavLink to={'/contact'} style={{textDecoration:"none"}}><p >Contact</p></NavLink>
+                    <NavLink to={'/contact'} style={{textDecoration:"none"}}><p>Contactame</p></NavLink>
                     </li>
                     <li>
-                    <NavLink to={'/about'} style={{textDecoration:"none"}}><p>About</p></NavLink>
+                    <NavLink  to={'/about'} style={{textDecoration:"none"}}><p>Sobre mi</p></NavLink>
                     </li>
                 </ul>
                 <span onClick={Show} className='btn-menu'>

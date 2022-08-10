@@ -4,6 +4,7 @@
 .texto p {
     padding: 1%;
     text-align: center;
+    font-family: Basteleur-Moonlight;
 }
 .button {
     width: 100%;
@@ -13,6 +14,7 @@
 }
 .button button{
     display: inline-block;
+    font-family: Basteleur-Moonlight;
     border: none;
     height: 100%;
     border-radius: 30px;

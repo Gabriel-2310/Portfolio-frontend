@@ -25,7 +25,7 @@ const About = () => {
     <div className='ContainerMain'>
       <div className='Containermaster'>
         <div className="hero">
-          <h1>About</h1>
+          <h1>Sobre mi</h1>
         </div>
         <div className="texto">
           {About.container && About.container.map((cont) => {
